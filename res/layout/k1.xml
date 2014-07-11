@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView
+     android:id="@+id/abc0" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="@string/abc1" />
+	
+	<TextView
+     android:id="@+id/abc1" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="@string/abc2" />
+	
+
+<EditText android:id="@+id/edit1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="text"
+>
+		<requestFocus />
+	</EditText>
+
+<TextView
+     android:id="@+id/abcp.0" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="@string/abc3" />
+	
+<EditText android:id="@+id/editp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword">
+		<requestFocus />
+	</EditText>
+  
+  <Button android:id="@+id/btnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn1"
+  android:onClick="showbtn" />
+		
+<TextView
+     android:id="@+id/abc4" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="@string/abc4" />
+	<TextView
+     android:id="@+id/hint" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+      />
+	
+
+</LinearLayout>

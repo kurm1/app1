@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/ok" android:id="@+id/abc0"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/abc2" android:id="@+id/abc1"/>
+
+
+-<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/edit1" android:inputType="text" android:ems="10">
+
+<requestFocus/>
+
+</EditText>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/abc3" android:id="@+id/abcp.0"/>
+
+
+-<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editp" android:inputType="text" android:ems="10">
+
+<requestFocus/>
+
+</EditText>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/btn1" android:id="@+id/btnk" android:onClick="showbtn"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/abc4" android:id="@+id/abc4"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/hint"/>
+
+</LinearLayout>
